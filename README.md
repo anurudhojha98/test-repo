@@ -25,3 +25,5 @@ http://localhost:3000/api-docs/#/
 
 1.Swagger api doc integration
 
+
+Added schreenshots as well of ui and api.

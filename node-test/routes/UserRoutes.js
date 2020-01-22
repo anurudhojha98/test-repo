@@ -1,8 +1,8 @@
 const userController = require('../controllers/UserController');
 module.exports = (app, router) => {
 
-    router.get('', userController.user);
+    router.post('/register', userController.userRegistration);
 
-    app.use('/api', router)
+    app.use('/auth', router)
 
 }
